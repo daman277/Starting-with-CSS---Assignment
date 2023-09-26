@@ -1,0 +1,27 @@
+/* Styling for the Block - .paragraph */
+ .paragraph { 
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Styling for the Element - 
+.paragraph__intro */
+.paragraph--intro {
+    background-color: #f1c48f;
+}
+
+/* Styling for the Element - 
+.paragraph__main */
+.paragraph--main {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Styling for the Element - 
+.paragraph__footer */
+.paragraph--footer {
+    background-color: #2ecc71;
+    font-style: italic;
+}

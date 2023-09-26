@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS for the entire page */
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Internal CSS for specific div */
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CSS Demo</h1>
+
+    <!-- Inline CSS -->
+    <div style="background-color: #e74c3c; color: #fff; 
+    text-align: center; width: 200px; height: 200px; margin: 20px;">
+        Inline CSS
+    </div>
+
+    <!-- Internal CSS (using the .box class) -->
+    <div class="box">
+        Internal CSS
+    </div>
+
+    <!-- External CSS (using the .box class) -->
+    <div class="box">
+        External CSS
+    </div>
+
+    <p>This is some text without specific styling.</p>
+</body>
+</html>
